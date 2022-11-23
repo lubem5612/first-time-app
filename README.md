@@ -1,13 +1,20 @@
 ##First Time For Everything
+
 This is a simple test of a developer's ability to set up a simple Laravel project, create models through migration and implement the Ladacache which is used with redis as a simple database cache. Eloquent relationships and model feature test are also implemented.
+
 ##Table of contents
+
 * [Prerequisites](#prerequisites)
 * [Setup](#setup)
 * [Testing](#testing)
 * [Contributors](#contributors)
+
 ##Prerequisites
+
 Ensure that your computer  has redis installed. A simple check can be done by running ``redis-server`` in the terminal. If redis is not installed on your PC, follow the installation process [here](https://redis.io/docs/getting-started/)
+
 ##Setup
+
 Follow the steps below to setup the project locally
 
 - clone the project from git repository.
@@ -23,6 +30,6 @@ Before running the test, ensure that redis service is running on your PC. If you
 - run ``redis-server`` in your project terminal.
 - run ``php artisan test`` to test the existence of the models that have been created. 
 
-
 ##Contributors
+
 - [Lubem Tser](http://slait.com.ng/about)
