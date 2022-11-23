@@ -2,10 +2,11 @@
 
 namespace App\Models;
 
+use App\Classes\LadaCache;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Profile extends Model
+class Profile extends LadaCache
 {
     use HasFactory;
 
