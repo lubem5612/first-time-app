@@ -11,7 +11,7 @@ class Address extends LadaCache
     use HasFactory;
 
     protected $fillable = [
-        'address', 'user_id'
+        'address', 'user_id', 'is_default'
     ];
 
     public function user()

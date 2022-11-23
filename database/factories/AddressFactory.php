@@ -22,6 +22,7 @@ class AddressFactory extends Factory
         return [
             'user_id' => User::inRandomOrder()->first()->id,
             'address' => $this->faker->address(),
+            'is_default' => 0,
         ];
     }
 }

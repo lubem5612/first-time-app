@@ -17,6 +17,7 @@ class CreateAddressesTable extends Migration
             $table->id();
             $table->foreignId('user_id')->constrained('users')->cascadeOnDelete();
             $table->string('address');
+            $table->boolean('is_default')->default(false);
             $table->timestamps();
         });
     }
